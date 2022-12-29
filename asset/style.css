@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: poppins ;
+    src: url(..//fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+}
+
+.playFair {
+    font-family: playfair;
+}
+
+.poppins {
+    font-family: poppins;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EDF0E3;
+}
+
+.text {
+    position: absolute;
+    left: 0;
+    width: 50vw;
+    text-align: center;
+
+}
+.title {
+    margin: auto;
+    width: 70%;
+    padding: 2em;
+
+}
+
+ img {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.text a {
+    padding: 0.3em 2em;
+    border-radius: 2em;
+    text-decoration: none;
+    background-color: #F5A941;
+    width: 600px;
+}
+
+
+.text p {
+    font-size: 0.7em;
+    padding-bottom: 3em;
+    margin: auto;
+    width: 70%;
+}
